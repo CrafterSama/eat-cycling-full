@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Eat & Check</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Style -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/jquery.bxslider.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="css/font-awesome.min.css" rel="stylesheet" >
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <section class="header">
+        <section class="container">
+            <section class="header-top">
+                <section class="header-rrss col-xs-12 col-md-6">
+                    <a href="https://facebook.com" target="_blank" title="Facebook"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+                    <a href="https://instagram.com" target="_blank" title="Instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    <a href="https://youtube.com" target="_blank" title="You Tube"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+                </section>
+                <section class="header-bar col-xs-12 col-md-6 nopadding">
+                    <article class="col-xs-6 col-md-4 header-login nopadding">
+                        <i class="fa fa-user-circle-o" aria-hidden="true"></i>
+                        <a href="log-in.html" data-toggle="dropdown" class="dropdown-toggle">LOG IN</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Editar Ruta</a>
+                                </li>
+                                <li><a href="perfil.html">Mi perfil</a>
+                                </li>
+                            </ul>
+                        <span>|</span>
+                        <a href="registro.html">REGISTRO</a>
+                    </article>
+                    <article class="col-xs-6 col-md-4 header-leng">
+                        <i class="fa fa-globe" aria-hidden="true"></i>
+                        <a href="#">EN</a>
+                        <span>|</span>
+                        <a href="#" class="active">ES</a>
+                        <span>|</span>
+                        <a href="#">DE</a>
+                    </article>
+                    <article class="col-xs-6 col-md-4 header-search nopadding">
+                        <div id="custom-search-input">
+                            <div class="input-group col-md-12">
+                                <input type="text" class="  search-query form-control" placeholder="Buscar" />
+                                <span class="input-group-btn">
+                                    <button class="btn btn-danger" type="button">
+                                        <i class="fa fa-search" aria-hidden="true"></i>
+                                    </button>
+                                </span>
+                            </div>
+                        </div>
+                    </article>
+                </section>
+            </section>
+            <section class="header-nav">
+                <article class="header-logo">
+                    <a href="index.html"><img src="img/logo.png"></a>
+                </article>
+                <nav  class="navbar navbar-inverse">
+                   <div class="container-fluid">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>                        
+                          </button>
+                        </div>
+                        <div class="collapse navbar-collapse nopadding" id="myNavbar">
+                            <ul class="nav navbar-nav">
+                                <li class="active"><a href="index.html">Inicio</a></li>
+                                <li><a href="listado-rutas.html">rutas</a></li>
+                                <li class="dropdown">
+                                    <a data-toggle="dropdown" class="dropdown-toggle" href="#">Establecimientos </a>
+                                    <ul class="dropdown-menu">
+                                        <li>
+                                            <a href="establecimiento-ocio.html">categorías de ocio <i class="icon-arrow-right"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="establecimiento-salud.html">categorías de salud<i class="icon-arrow-right"></i></a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li><a href="sobre-mallorca.html">sobre mallorca</a></li>
+                                <li><a href="contacto.html">contacto</a></li>
+                            </ul>
+                       </div>
+                    </div>
+                </nav>
+                <article class="header-weather">
+                    <article>
+                        <span class="span-bold">Mallorca</span>
+                        <span class="span-bold-2">18°C</span>
+                        <span class="">Nublado</span>
+                    </article>
+                    <img src="img/Weather/Weather_partly_cloudy.png">
+                </article>
+            </section>
+        </section>
+        </section>
+    </header>
+    <!-- End Header -->
+   <!-- Log in -->
+    <section class="content-log-in">
+       <section class="container">
+           <h2>registro </h2>
+           <section class="box-log-in">
+               <article class="form-log-in">
+                    <article class="register">
+                       <a href="#" class="btn-facebook">registrate con facebook</a>
+                       <img src="img/linea.png">
+                       <p class="text-register">REGÍSTRATE CON TU DIRECCIÓN DE CORREO</p>
+                       <input type="text" placeholder="Nombre de usuario o dirección de correo electrónico">
+                       <input type="password" placeholder="Contraseña">
+                       <input type="email" placeholder="Correo electrónico">
+                       <input type="email" placeholder="confirmar el correo electrónico">
+                       <article class="col-md-6 input-1">
+                           <input type="text" placeholder="Nombres">
+                       </article>
+                       <article class="col-md-6 input-2">
+                           <input type="text" placeholder="Apellidos">
+                       </article>
+                       <article class="col-md-6 input-3">
+                           <select>
+                               <option>País</option>
+                           </select>
+                       </article>
+                       <article class="col-md-6 input-4">
+                           <input type="text" placeholder="Código Postal">
+                       </article>
+                        <p class="txt-terminos">Al hacer click en Regístrate, aceptas los <a href="#">términos y condiciones</a> y la <a href="#">política de privacidad</a> de Eat & Check.</p>
+                       <input type="submit" value="registrar">
+                       <article class="not-login">
+                           <p>¿Ya tienes cuenta?</p>
+                           <a href="log-in.html">Entrar</a>
+                       </article>
+                   </article>
+               </article>
+           </section>
+       </section>
+    </section>
+   <!-- End Log in -->
+    
+    <!-- footer -->
+    <footer>
+        <section class="container">
+            <section class="hidden-xs col-md-3">
+                <img src="img/footer-logo.png">
+                <h6>Descarga en:</h6>
+                <a href="#"><img src="img/google-play.png"></a>
+                <a href="#"><img src="img/app-store.png"></a>
+            </section>
+            <section class="hidden-xs col-md-2">
+                <h6>menu principal:</h6>
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Rutas</a></li>
+                    <li><a href="#">Establecimientos</a></li>
+                    <li><a href="#">Sobre Mallorca</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </section>
+            <section class="hidden-xs col-md-2">
+                <h6>Corporativo:</h6>
+                <ul>
+                    <li><a href="#">Quienes somos</a></li>
+                    <li><a href="#">Colaboradores</a></li>
+                    <li><a href="#">Establecimientos</a></li>
+                    <li><a href="#">Contactas</a></li>
+                </ul>
+            </section>
+            <section class="hidden-xs col-md-2">
+                <h6>menu usuario:</h6>
+                <ul>
+                    <li><a href="#">Registro</a></li>
+                    <li><a href="#">Mi Perfil</a></li>
+                    <li><a href="#">Rutas</a></li>
+                    <li><a href="#">Comentarios</a></li>
+                    <li><a href="#">Valoraciones</a></li>
+                </ul>
+            </section>
+            <section class="hidden-xs col-md-3">
+                <a href="#"><img src="img/footer-img.jpg" class="img-responsive"></a>
+            </section>
+        </section>
+        <section class="footer-copy">
+            <section class="container">                <article class="col-xs-12 col-md-12">
+                <a href="https://facebook.com" target="_blank" title="Facebook"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+                    <a href="https://instagram.com" target="_blank" title="Instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    <a href="https://youtube.com" target="_blank" title="You Tube"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+                    <p> © Copyright 2017   Eat & Check  -  Todos los derechos reservados </p>
+            </article>
+            </section>
+        </section>
+    </footer>
+    <!-- End Footer -->
+    
+    
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    
+</body>
+</html>

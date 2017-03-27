@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Eat & Check</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Style -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/jquery.bxslider.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="css/font-awesome.min.css" rel="stylesheet" >
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <section class="header">
+        <section class="container">
+            <section class="header-top">
+                <section class="header-rrss col-xs-12 col-md-6">
+                    <a href="https://facebook.com" target="_blank" title="Facebook"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+                    <a href="https://instagram.com" target="_blank" title="Instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    <a href="https://youtube.com" target="_blank" title="You Tube"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+                </section>
+                <section class="header-bar col-xs-12 col-md-6 nopadding">
+                    <article class="col-xs-6 col-md-4 header-login nopadding">
+                        <i class="fa fa-user-circle-o" aria-hidden="true"></i>
+                        <a href="log-in.html" data-toggle="dropdown" class="dropdown-toggle">LOG IN</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Editar Ruta</a>
+                                </li>
+                                <li><a href="perfil.html">Mi perfil</a>
+                                </li>
+                            </ul>
+                        <span>|</span>
+                        <a href="registro.html">REGISTRO</a>
+                    </article>
+                    <article class="col-xs-6 col-md-4 header-leng">
+                        <i class="fa fa-globe" aria-hidden="true"></i>
+                        <a href="#">EN</a>
+                        <span>|</span>
+                        <a href="#" class="active">ES</a>
+                        <span>|</span>
+                        <a href="#">DE</a>
+                    </article>
+                    <article class="col-xs-6 col-md-4 header-search nopadding">
+                        <div id="custom-search-input">
+                            <div class="input-group col-md-12">
+                                <input type="text" class="  search-query form-control" placeholder="Buscar" />
+                                <span class="input-group-btn">
+                                    <button class="btn btn-danger" type="button">
+                                        <i class="fa fa-search" aria-hidden="true"></i>
+                                    </button>
+                                </span>
+                            </div>
+                        </div>
+                    </article>
+                </section>
+            </section>
+            <section class="header-nav">
+                <article class="header-logo">
+                    <a href="index.html"><img src="img/logo.png"></a>
+                </article>
+                <nav  class="navbar navbar-inverse">
+                   <div class="container-fluid">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>                        
+                          </button>
+                        </div>
+                        <div class="collapse navbar-collapse nopadding" id="myNavbar">
+                            <ul class="nav navbar-nav">
+                                <li class="active"><a href="index.html">Inicio</a></li>
+                                <li><a href="listado-rutas.html">rutas</a></li>
+                                <li class="dropdown">
+                                    <a data-toggle="dropdown" class="dropdown-toggle" href="#">Establecimientos </a>
+                                    <ul class="dropdown-menu">
+                                        <li>
+                                            <a href="establecimiento-ocio.html">categorías de ocio <i class="icon-arrow-right"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="establecimiento-salud.html">categorías de salud<i class="icon-arrow-right"></i></a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li><a href="sobre-mallorca.html">sobre mallorca</a></li>
+                                <li><a href="contacto.html">contacto</a></li>
+                            </ul>
+                       </div>
+                    </div>
+                </nav>
+                <article class="header-weather">
+                    <article>
+                        <span class="span-bold">Mallorca</span>
+                        <span class="span-bold-2">18°C</span>
+                        <span class="">Nublado</span>
+                    </article>
+                    <img src="img/Weather/Weather_partly_cloudy.png">
+                </article>
+            </section>
+        </section>
+        </section>
+    </header>
+    <!-- End Header -->
+    <section class="content-profile">
+        <section class="container">
+            <section class="log-out">
+                <p>BIENVENIDO PEP CORLEONE</p>
+                <span>|</span>
+                <a href="#">CERRAR SESIÓN</a>
+            </section>
+            <h2>tu perfil</h2>
+            <h3>pep corleone pons</h3>
+            <a href="#" class="link-edit"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a>
+            <section class="content-data">
+                <p>Edad: 42</p>
+                <span>|</span>
+                <p>Palma de Mallorca</p>
+                <span>|</span>
+                <p>Nivel: Profesional</p>
+            </section>
+        </section>
+    </section>
+    
+    <!-- Perfil descripcion -->
+    <section class="contet-profile-description">
+        <section class="bg-profile">
+            <section>
+                
+            </section>
+        </section>
+        <section class="bg-profile-description">
+        </section>
+        <section class="container">
+            <section class="data-profile">
+                <article>
+                    <img src="img/foto.png">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                </article>
+                <article>
+                    <div class="tab-content">
+                        <div id="home" class="tab-pane fade in active">
+                            <h3>13</h3>
+                            <p>Rutas Hechas</p>
+                        </div>
+                        <div id="menu1" class="tab-pane fade">
+                            <h3>13</h3>
+                            <p>Rutas Hechas</p>
+                        </div>
+                        <div id="menu2" class="tab-pane fade">
+                            <h3>13</h3>
+                            <p>Rutas Hechas</p>
+                        </div>
+                    </div>
+                </article>
+                <article class="selector-perfil">
+                    <img src="img/selector-perfil.png">
+                    <ul class="nav nav-tabs">
+                        <li class="active arrow-div"><a data-toggle="tab" href="#home">Ruta</a></li>
+                        <li class=" arrow-div"><a data-toggle="tab" href="#menu1">Velocidad</a></li>
+                        <li class=" arrow-div"><a data-toggle="tab" href="#menu2">Distancia</a></li>
+                    </ul>
+                </article>
+            </section>
+            <section class="data-profile-descr">
+                <h3>DESCRIPCIÓN:</h3>
+                <p>Soy una persona tanquila que disfruta de los pequeños placeres de la vida. </p>
+                <p>El ciclismo es mi día a día y me encanta compartislo con diferentes compañeros. ¿Te unes en mi siguiente ruta? Soy de nivel profesional y competidor por excelencia.</p>
+                <a href="https://facebook.com" target="_blank" title="Facebook"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+                <a href="https://instagram.com" target="_blank" title="Instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                <a href="https://instagram.com" target="_blank" title="Instagram"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                <a href="http://www.pep-campeon.com" target="_blank">www.pep-campeon.com</a>
+            </section>
+        </section>
+    </section>
+    <!-- End Perfil descripcion -->
+    
+    <!-- Last Route -->
+    <section class="container last-route">
+        <section class="col-xs-12 col-md-5">
+            <article class="box-last-route">
+                <h4>Últimas rutas realizadas:</h4>
+                <article>
+                    <article class="col-xs-12 col-md-6">
+                        <a href="#"><img src="img/last-rut.jpg"></a>
+                    </article>
+                    <article class="col-xs-12 col-md-6">
+                        <a href="#"><img src="img/last-rut.jpg"></a>
+                    </article>
+                    <article class="col-xs-12 col-md-6">
+                        <a href="#"><img src="img/last-rut.jpg"></a>
+                    </article>
+                    <article class="col-xs-12 col-md-6">
+                        <a href="#"><img src="img/last-rut.jpg"></a>
+                    </article>
+                    <article class="col-xs-12 col-md-6">
+                        <a href="#"><img src="img/last-rut.jpg"></a>
+                    </article>
+                    <article class="col-xs-12 col-md-6">
+                        <a href="#" class="btn-more">ver todas</a>
+                    </article>
+                </article>
+            </article>
+        </section>
+        <section class="col-xs-12 col-md-7">
+            <article class="box-favorite">
+                <h4>Rutas Favoritas:</h4>
+                <article>
+                    <article class="col-xs-12 col-md-4">
+                        <h5>Valoración</h5>
+                    </article>
+                    <article class="col-xs-12 col-md-8">
+                        <h5>Nombre de la ruta</h5>
+                    </article>
+                </article>
+                <article>
+                    <article class="col-xs-12 col-md-4">
+                        <article class="favorite-stars">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                        </article>
+                    </article>
+                    <article class="col-xs-12 col-md-8">
+                        <h6>Sa Calobra - Alcudia</h6>
+                        <p class="text-difficult">Intermedia</p>
+                        <img src="img/dificultad.png">
+                        <p class="text-km">165 km</p>
+                        <a href="#" class="btn-more">Más info...</a>
+                    </article>
+                </article>
+                <article>
+                    <article class="col-xs-12 col-md-4">
+                        <article class="favorite-stars">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                        </article>
+                    </article>
+                    <article class="col-xs-12 col-md-8">
+                        <h6>Sa Calobra - Alcudia</h6>
+                        <p class="text-difficult">Intermedia</p>
+                        <img src="img/dificultad.png">
+                        <p class="text-km">165 km</p>
+                        <a href="#" class="btn-more">Más info...</a>
+                    </article>
+                </article>
+                <article>
+                    <article class="col-xs-12 col-md-4">
+                        <article class="favorite-stars">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                        </article>
+                    </article>
+                    <article class="col-xs-12 col-md-8">
+                        <h6>Sa Calobra - Alcudia</h6>
+                        <p class="text-difficult">Intermedia</p>
+                        <img src="img/dificultad.png">
+                        <p class="text-km">165 km</p>
+                        <a href="#" class="btn-more">Más info...</a>
+                    </article>
+                </article>
+                <article>
+                    <article class="col-xs-12 col-md-4">
+                        <article class="favorite-stars">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                        </article>
+                    </article>
+                    <article class="col-xs-12 col-md-8">
+                        <h6>Sa Calobra - Alcudia</h6>
+                        <p class="text-difficult">Intermedia</p>
+                        <img src="img/dificultad.png">
+                        <p class="text-km">165 km</p>
+                        <a href="#" class="btn-more">Más info...</a>
+                    </article>
+                </article>
+            </article>
+        </section>
+    </section>
+    <!-- End Last Route -->
+    
+    <!-- Section estadisticas-->
+    <section class="container">
+        <section class="col-xs-12 col-md-12">
+            <article class="box-statistics">
+                <h4>Mis Estadísticas:</h4>
+                <article>
+                    <select>
+                        <option>Mes</option>
+                        <option value="">Enero</option>
+                        <option value="">Febrero</option>
+                        <option value="">Marzo</option>
+                        <option value="">Abril</option>
+                        <option value="">Mayo</option>
+                        <option value="">Junio</option>
+                        <option value="">Julio</option>
+                        <option value="">Agosto</option>
+                        <option value="">Septiembre</option>
+                        <option value="">Octubre</option>
+                        <option value="">Noviembre</option>
+                        <option value="">Diciembre</option>
+                    </select>
+                    <a href="#" class="btn-km">Km Recorridos</a>
+                </article>
+                <article class="chart">
+                    <img src="img/estadisticas.jpg">
+                </article>
+                
+            </article>
+        </section>
+    </section>
+    <!-- End section estadisticas -->
+    
+    <!-- Comments -->
+    <section class="container">
+        <section class="col-xs-12 col-md-6">
+            <article class="box-comments">
+                <h4>Mis Comentarios:</h4>
+                <article>
+                    <article class="col-xs-12 col-md-12">
+                        <h5>Sa Calobra - Alcudia</h5>
+                        <span>16/12/17</span>
+                        <a class="btn-edit">Editar</a>
+                    </article>
+                    <article class="col-xs-12 col-md-12">
+                        <p>¡Muy buena Foto! Capta todo el paisaje!</p>
+                    </article>
+                </article>
+                <article>
+                    <article class="col-xs-12 col-md-12">
+                        <h5>Sa Calobra - Alcudia</h5>
+                        <span>16/12/17</span>
+                        <a class="btn-edit">Editar</a>
+                    </article>
+                    <article class="col-xs-12 col-md-12">
+                        <p>Hemos encontrado esta ruta y la disfrutamos de una forma increíble! es muy buena la zona para principiantes encontramos muy rica comida y sobre todo diferentes trayectos! Volvería a repetirla sin duda.</p>
+                    </article>
+                </article>
+                <article>
+                    <article class="col-xs-12 col-md-12">
+                        <h5>Sa Calobra - Alcudia</h5>
+                        <span>16/12/17</span>
+                        <a class="btn-edit">Editar</a>
+                    </article>
+                    <article class="col-xs-12 col-md-12">
+                        <p>¡Muy buena Foto! Capta todo el paisaje!</p>
+                    </article>
+                </article>
+            </article>
+        </section>
+        <section class="col-xs-12 col-md-6">
+            <article class="box-valoration">
+                <h4>Mis Valoraciones:</h4>
+                <article>
+                    <article class="col-xs-12 col-md-5">
+                        <article class="favorite-stars">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                        </article>
+                    </article>
+                    <article class="col-xs-12 col-md-7">
+                        <h6>Sa Calobra - Alcudia</h6>
+                        <img src="img/dificultad.png">
+                        <p class="text-km">165 km</p>
+                    </article>
+                </article>
+                <article>
+                    <article class="col-xs-12 col-md-5">
+                        <article class="favorite-stars">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                        </article>
+                    </article>
+                    <article class="col-xs-12 col-md-6">
+                        <h6>Sa Calobra - Alcudia</h6>
+                        <img src="img/dificultad.png">
+                        <p class="text-km">165 km</p>
+                    </article>
+                </article>
+                <article>
+                    <article class="col-xs-12 col-md-5">
+                        <article class="favorite-stars">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                        </article>
+                    </article>
+                    <article class="col-xs-12 col-md-7">
+                        <h6>Sa Calobra - Alcudia</h6>
+                        <img src="img/dificultad.png">
+                        <p class="text-km">165 km</p>
+                    </article>
+                </article>
+            </article>
+        </section>
+    </section>
+    <!-- End Comments -->
+    
+    <!-- establecimientos favoritos -->
+    <section class="container">
+        <section class="col-xs-12 col-md-12">
+            <article class="box-esta-favorite">
+                <h4>Establecimientos Favoritos:</h4>
+                <article>
+                    <article class="col-xs-12 col-md-2">
+                        <a href="#"><img src="img/last-rut.jpg"></a>
+                    </article>
+                    <article class="col-xs-12 col-md-2">
+                        <a href="#"><img src="img/last-rut.jpg"></a>
+                    </article>
+                    <article class="col-xs-12 col-md-2">
+                        <a href="#"><img src="img/last-rut.jpg"></a>
+                    </article>
+                    <article class="col-xs-12 col-md-2">
+                        <a href="#"><img src="img/last-rut.jpg"></a>
+                    </article>
+                    <article class="col-xs-12 col-md-2">
+                        <a href="#"><img src="img/last-rut.jpg"></a>
+                    </article>
+                    <article class="col-xs-12 col-md-2">
+                        <a href="#" class="btn-more">ver todas</a>
+                    </article>
+                </article>
+            </article>
+        </section>
+    </section>
+    <!-- end establecimientos favoritos -->
+    
+    
+    <!-- footer -->
+    <footer>
+        <section class="container">
+            <section class="hidden-xs col-md-3">
+                <img src="img/footer-logo.png">
+                <h6>Descarga en:</h6>
+                <a href="#"><img src="img/google-play.png"></a>
+                <a href="#"><img src="img/app-store.png"></a>
+            </section>
+            <section class="hidden-xs col-md-2">
+                <h6>menu principal:</h6>
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Rutas</a></li>
+                    <li><a href="#">Establecimientos</a></li>
+                    <li><a href="#">Sobre Mallorca</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </section>
+            <section class="hidden-xs col-md-2">
+                <h6>Corporativo:</h6>
+                <ul>
+                    <li><a href="#">Quienes somos</a></li>
+                    <li><a href="#">Colaboradores</a></li>
+                    <li><a href="#">Establecimientos</a></li>
+                    <li><a href="#">Contactas</a></li>
+                </ul>
+            </section>
+            <section class="hidden-xs col-md-2">
+                <h6>menu usuario:</h6>
+                <ul>
+                    <li><a href="#">Registro</a></li>
+                    <li><a href="#">Mi Perfil</a></li>
+                    <li><a href="#">Rutas</a></li>
+                    <li><a href="#">Comentarios</a></li>
+                    <li><a href="#">Valoraciones</a></li>
+                </ul>
+            </section>
+            <section class="hidden-xs col-md-3">
+                <a href="#"><img src="img/footer-img.jpg" class="img-responsive"></a>
+            </section>
+        </section>
+        <section class="footer-copy">
+            <section class="container">                <article class="col-xs-12 col-md-12">
+                <a href="https://facebook.com" target="_blank" title="Facebook"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+                    <a href="https://instagram.com" target="_blank" title="Instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    <a href="https://youtube.com" target="_blank" title="You Tube"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+                    <p> © Copyright 2017   Eat & Check  -  Todos los derechos reservados </p>
+            </article>
+            </section>
+        </section>
+    </footer>
+    <!-- End Footer -->
+    
+    
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.bxslider.min.js"></script>
+    <script>
+        
+        $( document ).ready(function() {
+            $('#overlay').fadeIn('fast',function(){
+                $('#box').animate({'top':'160px'},800);
+            });
+            $('.box select').change(function(){
+                $('#box').animate({'top':'-100%'},800,function(){
+                $('#overlay').fadeOut('fast');
+            });
+        });
+        
+        $('.bxslider').bxSlider({
+            mode: 'fade',
+            controls:true,
+            captions: false,
+            pager: false
+        });
+        $('.slider-col').bxSlider({
+            slideWidth: 300,
+            minSlides: 7,
+            maxSlides: 7,
+            moveSlides: 1,
+            controls:true,
+            captions: false,
+            pager: false
+        });
+        
+        });
+    </script>
+</body>
+</html>
