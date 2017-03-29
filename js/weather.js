@@ -23,12 +23,7 @@ $('#place').change( function() {
             method: "GET",
             data: {
                 lat: lat,
-                long: long,
-                apikey: key
-            },
-            headers: {
-                'content-type': 'application/json',
-                'apikey': key,
+                long: long
             }
         })
         .done(function(data) {
@@ -51,12 +46,7 @@ $('#place').change( function() {
             method: "GET",
             data: {
                 lat: lat,
-                long: long,
-                apikey: key
-            },
-            headers: {
-                'content-type': 'application/json',
-                'apikey': key,
+                long: long
             }
         })
         .done(function(data) {
