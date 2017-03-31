@@ -57,10 +57,10 @@ $('#place').change( function() {
         weather();
     }
     else {
-        //var lat = 28.292249,
-        var lat = 60.1269612,
-            //long = -17.0831152;
-            long = -176.4151934;
+        var lat = 28.292249,
+        //var lat = 60.1269612,
+            long = -17.0831152;
+            //long = -176.4151934;
             url = 'http://api.eatandcheckcycling.com/get_weather?lat=' + lat + '&long=' + long;
         $('#weather', function(){
             $('#city').html('Tenerife');
